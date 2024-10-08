@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battleships</title>
+    <link rel="stylesheet" href="projects-style.css">
+
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="project">
+        <div class="project-content">
+            <h1>Battleships</h1>
+
+            <p>"Battleships" is my recreation of popular pencil-and-paper game in Unity. It is quite
+                uncomplicated, so I thought that would be the best option to get familiar with the game engine.
+            </p>
+
+            <p><span>Difficulties:</span> Despite the simplicity of the game, there were some problems. For example, I
+                had difficulty with letting a player place ships. Another problem was to make the opponent-bot finish
+                already damaged ships.
+            </p>
+            <p>These difficulties were solved due to the fact that the map consists of tiles which are stored in the
+                array. Thanks to it, before placing a ship, it's being checked via script whether the tile is empty and
+                is not next to already placed ships. Also, when the bot hits the target, it checks all array values in
+                all directions from that tile and blocks a direction if there is an obstacle.</p>
+        </div>
+        <div class="gameplay">
+            <video autoplay loop muted>
+                <source src="Battleships gameplay.mp4">
+            </video>
+        </div>
+        <div class="project-sci">
+            <a href="Battleships Setup.exe"><i class='bx bxs-download'></i></a>
+            <a href="/PortfolioWebsite/index.html"><i class='bx bxs-home'></i></a>
+        </div>
+    </section>
+</body>
+
+</html>

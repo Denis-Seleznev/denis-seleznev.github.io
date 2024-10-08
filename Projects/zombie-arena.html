@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zombie arena</title>
+    <link rel="stylesheet" href="projects-style.css">
+
+    <!--Box icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="project">
+        <div class="project-content">
+            <h1>Zombie arena</h1>
+
+            <p>For the second project I decided to create something more active, but yet easy for a beginner. During
+                creation I used more game object components. Also, I worked a bit with animations and created simple UI.
+            </p>
+
+            <p><span>Difficulties:</span> One difficulty was that at first I used MoveTowards() method to make zombies
+                follow the player. That caused them to push the player through walls from time to time. I coped with
+                that by calculating vectors and modifying zombies' velocity instead of changing zombie's transform
+                component (which MoveTowards() did). That would also make zombies slide away if the player had bumped
+                into them. At first, I didn't like that effect, but then, after modifying their mass, it started to look
+                like a cool "push away" mechanics.</p>
+        </div>
+        <div class="gameplay">
+            <video autoplay loop muted>
+                <source src="Zombie arena gameplay.mp4">
+            </video>
+        </div>
+        <div class="project-sci">
+            <a href="ZombieArena Setup.exe"><i class='bx bxs-download'></i></a>
+            <a href="/PortfolioWebsite/index.html"><i class='bx bxs-home'></i></a>
+        </div>
+    </section>
+</body>
+
+</html>
