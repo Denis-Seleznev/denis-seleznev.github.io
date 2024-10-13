@@ -801,10 +801,6 @@ span {
     }
 
     .contact .contact-info-upper-container {
-        width: 100%;
-    }
-
-    .contact-info-container p {
-        font-size: 0.25rem;
+        width: 110%;
     }
 }
