@@ -799,4 +799,8 @@ span {
     .home-content h1 {
         font-size: 5rem;
     }
+
+    .contact-info-container p {
+        font-size: 1.05rem;
+    }
 }
