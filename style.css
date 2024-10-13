@@ -731,7 +731,7 @@ span {
     }
 
     .contact .contact-info-upper-container {
-        width: 80%;
+        width: 75%;
     }
 
     .contact-info-container p {
@@ -784,7 +784,7 @@ span {
     }
 }
 
-@media(max-width: 371px) {
+@media(0px<=width<=371px) {
     .home {
         justify-content: center;
     }
@@ -798,6 +798,10 @@ span {
 
     .home-content h1 {
         font-size: 5rem;
+    }
+
+    .contact .contact-info-upper-container {
+        width: 85%;
     }
 
     .contact-info-container p {
