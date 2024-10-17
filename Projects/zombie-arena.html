@@ -17,15 +17,15 @@
         <div class="project-content">
             <h1>Zombie arena</h1>
 
-            <p>For the second project I decided to create something more active, but yet easy for a beginner. During
-                creation I used more game object components. Also, I worked a bit with animations and created simple UI.
+            <p>For the second project I decided to create something more active. During creation I used more game object
+                components. Also, I worked a bit with animations and created simple UI.
             </p>
 
             <p><span>Difficulties:</span> One difficulty was that at first I used MoveTowards() method to make zombies
                 follow the player. That caused them to push the player through walls from time to time. I coped with
-                that by calculating vectors and modifying zombies' velocity instead of changing zombie's transform
-                component (which MoveTowards() did). That would also make zombies slide away if the player had bumped
-                into them. At first, I didn't like that effect, but then, after modifying their mass, it started to look
+                that by calculating vectors and modifying zombies' velocity instead of changing their transform
+                component directly (what MoveTowards() did). That would also make zombies slide away if the player had
+                bumped into them. At first, I didn't like that effect, but after modifying their mass, it looked
                 like a cool "push away" mechanics.</p>
         </div>
         <div class="gameplay">
